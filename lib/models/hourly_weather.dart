@@ -200,7 +200,7 @@ class Coord {
 }
 
 
-class Rain {
+/* class Rain {
   final double threeHours;
 
   const Rain({
@@ -210,7 +210,7 @@ class Rain {
   factory Rain.fromJson(Map<String, dynamic> json) {
     return Rain(threeHours: json['3h'] ?? 0.0);
   }
-}
+} */
 
 
 class Sys {
